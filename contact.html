@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tech Innovia</title>
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+    <div class="container-store">
+        <header>
+            <nav>
+             <ul class="navigation-menu">
+              <img src="./images/tech-innovia-logo.png" class="logo" />
+              <li><a href="./index.html">Home</a></li>
+              <li class="extends"><a href="./event.html">Events</a></li>
+              <li class="extends"><a href="store.html">Store</a></li>
+              <li class="extends">
+               <a href="#"
+                >Menu<svg xmlns="http://www.w3.org/2000/svg" color="white" width="24" height="24" class="w-4 h-4 ml-1">
+                 <path fill="none" d="M0 0h24v24H0z"></path>
+                 <path fill="currentColor" d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"></path>
+                </svg>
+               </a>
+               <ul>
+                <li><a href="./photo_gallery.html">Photo Gallery</a></li>
+                <li><a href="#">News</a></li>
+               </ul>
+              </li>
+              <li class="extends">
+               <a href="./about.html">About</a>
+              </li>
+              <li class="extends"><a href="./contact.html">Contact</a></li>
+             </ul>
+            </nav>
+           </header>
+        
+    <h1>Contact Us</h1>
+    <form action="http://vip.groupehn.com:20003/html/infospost.php" method="POST">
+        <label for="lastname">Last Name<span class="required">*</span></label>
+        <input class="yourclass" id="lastname" type="text" name="lastname" required>
+
+        <label for="firstname">First Name<span class="required">*</span></label>
+        <input class="yourclass" id="firstname" type="text" name="firstname" required>
+
+        <label for="email">Email<span class="required">*</span></label>
+        <input class="yourclass" id="email" type="email" name="email" placeholder="yourmail@gmail.com" required>
+
+        <label for="request">Your Request<span class="required">*</span></label>
+        <textarea class="yourclass" name="request" id="request" cols="66" rows="10" required></textarea>
+
+        <label for="country">Country</label>
+        <select class="yourclass" name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <p>&copy; 2023 Tech Innovia. All rights reserved.</p>
+    </footer>
+
+</div>
+</body>
+</html>
